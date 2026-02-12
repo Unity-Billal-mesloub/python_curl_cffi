@@ -39,7 +39,7 @@ python_curl_cffi.patch_as_pycurl()
 **Unix**
 
 1. Install libcurl (e.g. `apt-get install libcurl4-openssl-dev`)
-2. pip install git+https://multippt@bitbucket.org/multippt/python_curl_cffi.git
+2. pip install git+https://multippt@bitbucket.org/Unity-Billal-mesloub/python_curl_cffi.git
 
 **Windows (Python 2 64-bit)**
 
@@ -52,7 +52,7 @@ Compile libcurl:
 4. Build libcurl. `cd <path to curl repo>\winbuild\ && nmake /f Makefile.vc mode=static VC=9 MACHINE=x64`
 5. Set `LIB` environment variable (e.g. `set LIB=<path to curl repo>\builds\libcurl-vc9-x64-release-static-ipv6-sspi-winssl\lib`)
 6. Set `INCLUDE` environment variable (e.g. `set INCLUDE=<path to curl repo>\builds\libcurl-vc9-x64-release-static-ipv6-sspi-winssl\include`)
-7. pip install git+https://multippt@bitbucket.org/multippt/python_curl_cffi.git
+7. pip install git+https://multippt@bitbucket.org/Unity-Billal-mesloub/python_curl_cffi.git
 
 **Windows (Python 3 64-bit)**
 
@@ -65,4 +65,4 @@ Compile libcurl:
 4. Build libcurl. `cd <path to curl repo>\winbuild\ && nmake /f Makefile.vc mode=static VC=14 MACHINE=x64`
 5. Set `LIB` environment variable (e.g. `set LIB=<path to curl repo>\builds\libcurl-vc14-x64-release-static-ipv6-sspi-winssl\lib`)
 6. Set `INCLUDE` environment variable (e.g. `set INCLUDE=<path to curl repo>\builds\libcurl-vc14-x64-release-static-ipv6-sspi-winssl\include`)
-7. pip install git+https://multippt@bitbucket.org/multippt/python_curl_cffi.git
+7. pip install git+https://multippt@bitbucket.org/Unity-Billal-mesloub/python_curl_cffi.git
